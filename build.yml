@@ -1,6 +1,6 @@
 #sdkversion: "3.5.0"
 #sdk: c:/projects/rhodes
-name: "RhodesRMS5.1.1"
+name: "RhodesTestApp"
 #motorola_license_company: "Motorola Test and Validation"
 #motorola_license: "0277106A081D151A000307771A7E1C75"
 #motorola_license: "`OLrrql(`iVCdNt=PJ1DH=jKVc5O@ixKTtEMTWDVSQO@D2CnbLU@_)K(DvBALrln`WjnL@0n/[FLHhj$KEs.C?x)c(O6dju{2yA(;s;`"
@@ -15,9 +15,9 @@ applog: "rholog.txt"
 #  proxy: "http://wwwgate0.mot.com:1080"
 iphone:
   configuration: "Release"
-  sdk: iphonesimulator8.1
+  sdk: iphoneos8.3
   provisionprofile: 
-  codesignidentity: 
+  codesignidentity: "iPhone Developer"
   entitlements: 
   BundleIdentifier: "com.rhomobile.retestapp"
   BundleURLScheme: "retestapp"
@@ -58,8 +58,6 @@ android:
     - openssl.so
     - openssl
     - ezcrypto
-    - gmaps
-    
 #- rawsensors
     - audiocapture
 #- rhoconnect-client
